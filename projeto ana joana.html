@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trabalhos Escolares</title>
+  <style>
+     html {
+      scroll-behavior: smooth;
+    }
+    
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdfaf6;
+      color: #2b2b2b;
+    }
+
+    header {
+      background-color: #fff8f0;
+      color: #2e2e2e;
+      padding: 40px 20px 20px;
+      text-align: center;
+      border-bottom: 1px solid #e2d9ce;
+    }
+
+    .perfil-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+
+    nav {
+      background-color: #e7d5c4;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 12px 0;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #3a2f28;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      color: #5c4438;
+      border-bottom: 2px solid #d8bda8;
+      padding-bottom: 5px;
+    }
+
+    .projeto {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    .projeto img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    input, textarea, button {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    button {
+      background-color: #d8bda8;
+      color: #2b2b2b;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #c4a894;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 22px;
+      }
+
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .projeto img {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Foto de Sandra Silva" class="perfil-img" />
+    <h1>Trabalhos Escolares</h1>
+    <p>Portfólio da aluna Sandra Silva – Engenharia Multimédia</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre Mim</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <main>
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <p>Olá! Chamo-me Sandra Silva e sou aluna da licenciatura em Engenharia Multimédia. Tenho um grande interesse por design, animação digital e desenvolvimento web. Este site reúne os meus principais trabalhos realizados ao longo do curso.</p>
+    </section>
+
+    <section id="projetos">
+      <h2>Projetos</h2>
+
+      <div class="projeto">
+        <h3>Animação 3D no Blender</h3>
+        <p>Desenvolvi uma curta animação 3D com física realista, câmaras e iluminação para a unidade curricular de Técnicas Avançadas de Gráficos.</p>
+        <a href="https://www.youtube.com/watch?v=C1CFWDWTamo" target="_blank">
+          <img src="file:///C:/Users/Ana%20Sofia/Documents/ISTEC%20INFO/ISTEC%20INFO/3%C2%BA%20ANO%20-%202%C2%BA%20SEMESTRE/CLOUD%20COMPUTING/portfolio-escolar/blender.png" alt="Animação 3D no Blender" style="width: 300px; border-radius: 10px;"/>
+</a>
+      </div>
+
+      <div class="projeto">
+        <h3>Website Interativo para um Evento</h3>
+        <p>Criação de um website interativo para promover um festival cultural, com foco em usabilidade, acessibilidade e design responsivo.</p>
+      </div>
+
+      <div class="projeto">
+        <h3>Aplicação Mobile de Mindfulness</h3>
+        <p>Protótipo desenvolvido no Figma para uma app de bem-estar mental, com navegação intuitiva e sugestões personalizadas com base em IA.</p>
+      </div>
+
+      <div class="projeto">
+        <h3>Documentário Estudantil</h3>
+        <p>Edição completa de um vídeo-documentário com legendas, transições e tratamento de som, usando Adobe Premiere e After Effects.</p>
+        <a href="https://www.youtube.com/watch?v=p7m_huO8R5k" target="_blank">
+          <img src="file:///C:/Users/Ana%20Sofia/Documents/ISTEC%20INFO/ISTEC%20INFO/3%C2%BA%20ANO%20-%202%C2%BA%20SEMESTRE/CLOUD%20COMPUTING/portfolio-escolar/documentario.png" alt="Animação 3D no Blender" style="width: 300px; border-radius: 10px;"/>
+</a>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <input type="text" placeholder="Nome" required />
+        <input type="email" placeholder="Email" required />
+        <textarea rows="5" placeholder="Mensagem"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+</body>
+</html>
